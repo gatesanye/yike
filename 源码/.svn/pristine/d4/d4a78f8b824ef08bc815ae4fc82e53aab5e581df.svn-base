@@ -1,0 +1,34 @@
+/*页面层容器*/ 
+#container {width:100%;}
+
+/*页面头部*/ 
+#Header {width:100%;float:left;overflow:hidden;}
+
+/*页面主体*/ 
+#PageBody {width:950px;height:560px;margin:0 auto;text-align:center;}
+
+/*侧边栏*/
+#SideBar {width:220;float:left;margin:5 2;background:#AD5A5A;}
+/*状态栏*/
+#Status {width:200;height:295px;margin:5 auto;background:#FFFFF5;}
+
+/*物品分类*/
+#Classify{width:200;height:370px;margin:10 auto;text-align:left;background:#FFFFF5;}
+
+/*主体内容*/
+#MainBody {width:720px;float:right;margin:5 2;background:#AD5A5A;}
+.top {width:700px;height:20px;margin:0 auto;}
+/*热门物品*/
+#Hot {width:700px;height:660px;margin:5 auto;background:#FFFFF5;}
+
+
+/*底部跑马灯*/
+#Slide {width:950px;height:160px;margin:5 auto;background:#AD5A5A;}
+/*最新加入*/
+#New {width:930px;height:130px;margin:3 auto;background:#FFFFF5;}
+
+/* FOOTER */
+#footer a {width:100%;color:#fff}
+#footer .indent {padding:20px 600px}
+
+

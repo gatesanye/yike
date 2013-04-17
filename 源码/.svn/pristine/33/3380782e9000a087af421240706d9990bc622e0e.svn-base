@@ -1,0 +1,8 @@
+#status {background-image: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/index/status-bg.png', sizingMethod='image');}
+span.text-field {background-image: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/index/text-field.png', sizingMethod='image');}
+span.text-area {background-image: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/index/textarea.png', sizingMethod='image');}
+.img-cnt {background-image: none;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/index/image-shadow.png', sizingMethod='image');}

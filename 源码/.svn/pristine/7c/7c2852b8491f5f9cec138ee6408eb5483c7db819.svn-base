@@ -1,0 +1,73 @@
+body {    
+    line-height: 18px;    
+    color: #ac8b72;
+	background: url(../images/index/bg.jpg) repeat 0 0;
+}
+
+.cl { font-size: 0; line-height: 0; height: 0; clear: both; }
+
+a img { border: 0; }
+a { color: #fffd73; text-decoration: underline; }
+a:hover { text-decoration: none; cursor: pointer;}
+
+.left { float: left; display: inline; }
+.right { float: right; display: inline;} 
+.notext {font-size: 0; line-height: 0; text-indent: -4000px;}
+
+.center {display: block; margin: 0 auto;}
+
+.shell {margin: 0 auto; width: 964px;}
+
+#header {background: url(../images/index/header-bg.jpg) repeat-x 0 0;}
+#header .shell {background: url(../images/index/header.jpg) no-repeat 0 0; height: 403px; padding-top: 50px; padding-left: 52px; width: 862px !important; padding-right: 50px;}
+
+#logo-cnt {float: left; width: 600px;}
+h1#logo {color: #fdb813; font-family: "Lucida Sans", "Trebuchet MS", sans-serif; font-size: 30px; font-style: italic; font-weight: normal; line-height: 25px;}
+h2#slogan {font-family: "Lucida Sans", "Trebuchet MS", sans-serif; font-size: 15px; font-style: italic; font-weight: normal; color: #fff;}
+
+#status { margin-top: 8px; background: url(images/index/status-bg.png) no-repeat 0 0; width: 185px; height: 30px; float: right; padding-top: 5px; padding-left: 7px; padding-right: 10px;}
+#status p {color: #b5ed54; font-size: 13px; text-decoration: underline; font-family: "Lucida Sans", "Trebuchet MS", sans-serif; padding-top: 3px;}
+#status p.available {background: url(images/index/available.gif) no-repeat right 0; height: 25px;}
+#status p.unavailable {background: url(images/index/unavailable.gif) no-repeat right 0; height: 25px;}
+
+#slider {padding-top: 45px; padding-left: 25px; width: 800px; position: relative;}
+
+ul#mycarousel {position: relative;}
+ul#mycarousel li {float: left; display: inline; height: 184px; width: 270px;}
+.jcarousel-clip { height:184px; width:800px; overflow:hidden; position:relative;}
+.jcarousel-prev ,
+.jcarousel-next {background: url(../images/index/next.gif) no-repeat 0 0; width: 28px; height: 30px; display: block; float: left; position:absolute; top:143px; left: 870px; cursor: pointer; }
+.jcarousel-prev { background: url(../images/index/prev.gif) no-repeat 0 0; left: -39px;}
+
+#main { margin-top: -102px;}
+#main h2 {color: #ffb600; font-size: 18px; font-style: italic; font-family: "Lucida Sans", "Trebuchet MS", sans-serif; padding-bottom: 10px;}
+#main p {padding-bottom: 15px;}
+#main .shell {width: 945px;}
+
+.article {padding-bottom: 55px; font-size: 20px;}
+.gallery {padding-bottom: 20px;}
+
+a.view-all {color: #f1ac01; float: right;}
+
+.portfolio-item {float: left; padding-right: 20px; padding-bottom: 35px;text-align:center;}
+.portfolio-item img {display: block; padding-bottom: 1px;}
+.last {padding-right: 0 !important;}
+
+
+.img-cnt {background: url(../images/index/image-shadow.png) no-repeat 0 0; width: 264px; height: 184px; float: left;}
+.img-cnt img {display: block; margin: 0 auto; padding-top: 6px;}
+
+
+.column-cnt {width: 554px; float: left;}
+.column {width: 260px; float: left; padding-right: 17px;}
+.column label, .column-big label {display: block; font-size: 13px; font-family: "Lucida Sans", "Trebuchet MS", sans-serif; font-weight: bold; color: #d1d1d1; padding-bottom: 8px;}
+.column input {display: block; background: transparent; color: #ac8b72; height: 23px; border: 0; font-family: arial, sans-serif; font-size: 13px; padding-top: 5px; width: 250px;}
+.column-big {float: left; width: 391px;}
+.column-big textarea {background: transparent; color: #ac8b72; font-family: arial, sans-serif; font-size: 13px; border: 0; width: 381px; height: 137px;}
+span.text-field {background: url(../images/index/text-field.png) no-repeat 0 0; display: block; width: 260px; height: 30px; padding-top: 2px; padding-left: 5px;}
+span.text-area {background: url(../images/index/textarea.png) no-repeat 0 0; width: 386px; height: 147px; display: block; padding-top: 5px; padding-left: 5px;}
+form p {padding-top: 15px;}
+
+
+#footer { text-align: center; font-size:11px; padding:10px 0 40px 0;}
+#footer a{ color:#ac8b72; }

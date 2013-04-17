@@ -1,0 +1,17 @@
+.main-body {
+	width: 950px;
+	background-color: #ffffff;
+}
+
+.well h3 {
+	height: 35px;
+	font-weight: normal;
+	font-size: 18px;
+	border-bottom: 1px dashed #5e5e5e;
+	line-height: 220%;
+	margin-bottom: 20px;
+}
+
+div#user-msg, div#my-unusem, div#my-require {
+	margin-bottom: 40px;
+}

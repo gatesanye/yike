@@ -1,0 +1,7 @@
+name: yike2012
+version: 2
+handle:
+- hostaccess: if(path ~ "private") deny "all"
+- compress:  if ( out_header["Content-type"]=="text/css" ) compress
+- compress:  if ( out_header["Content-type"]=="text/javascript" ) compress
+- compress:  if ( out_header["Content-type"]=="text/html" ) compress

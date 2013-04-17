@@ -1,0 +1,41 @@
+/*页面层容器*/ 
+#container {width:100%} 
+/*页面头部*/ 
+#Header {width:950px;height:30px;margin:0 auto;background:#336666} 
+/*页面主体*/ 
+#PageBody {width:950px;height:650px;margin:0 auto;text-align:center}
+
+/*主体内容*/
+#MainBody {width:720px;float:left;margin:5 2;background:#66CCCC}
+
+/*物品基本信息*/
+#BasicInfo {width:700px;height:200px;margin:5 auto;background:#FFFFF5}
+.dtt {width: 100%;height: 10px;margin: 0px;padding: 10px;}
+.dttt {width: 100%;height: 10px;margin: 0px;padding: 5px;}
+.dtf {width: 100%;height: 120px;margin: 0px;padding: 15px;}
+dtl {float: left;width: 240px;margin: 0px;padding: 0px;}
+dtls {float: left;width: 240px;margin: 0px;padding: 0px;text-align:left;}
+dtr {float: right;width: 240px;margin: 0px;padding: 0px;clear: none;}
+dd {float: left;width: 500px;margin: 0px;padding: 0px;text-align:left;}
+dlff {width: 350px;font-size:9pt;line-height: 1.5em;position:relative;margin: 0px 5px;padding: 0px 0px 0px 5px;left:15px;}
+.red {color: #FF3300;}
+.ipic {width:165px;margin:5px;}
+#box {width: 500px;background-color: #F1F1F7;}
+#box #content {padding-top: 10px;padding-right: 10px;padding-bottom: 10px;padding-left: 20px;}
+
+/*物品详细信息*/
+#DetailedInfo {width:700px;height:400px;margin:10 auto;background:#FFFFF5}
+
+/*侧边栏*/
+#SideBar {width:220;float:right;margin:5 2;background:#66CCCC}
+/*拥有者信息*/
+#OwnerInfo {width:200;height:400px;margin:5 auto;background:#FFFFF5}
+/*拥有者想换*/
+#OwnerWanted{width:200;height:200px;margin:10 auto;background:#FFFFF5}
+
+/*页面底部*/ 
+#Footer {width:950px;height:50px;margin:0 auto;background:#61B4CF}
+
+
+
+

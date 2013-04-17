@@ -1,0 +1,11 @@
+<?php
+return array(
+	'dbconfig'=> array(
+		'local'	=> 'mysql://root:anye@localhost:3306/yike2012;charset=utf8',
+		'sae'	=> !isset($_SERVER['HTTP_APPNAME']) ? "" : "mysql://" . SAE_MYSQL_USER . ":" . SAE_MYSQL_PASS . "@" . SAE_MYSQL_HOST_M . ":" . SAE_MYSQL_PORT . "/" . SAE_MYSQL_DB . ";charset=utf8"
+	),
+	'moddir' => MODEL,			//模型层目录
+	'env'	 => 'DEVELOPMENT',	//运行环境
+	'pwdsalt'=> 'CAY#hwq#LJM',	//密码加密的 SALT
+	'cookie' => '@i易客',	//Cookie 加密钥
+);

@@ -1,0 +1,3 @@
+body { text-align: center; background: url(/static/images/bg.jpg) repeat;}
+h1 { width: 100%; border-bottom: 1px #000000 solid; height: 50px; margin-bottom: 10px;}
+img { margin-top: 20px; cursor: pointer;}
